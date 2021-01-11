@@ -1,0 +1,28 @@
+.dailyTimetable{
+border: 1px solid gray;
+width: 80%;
+height: 20em;
+position: relative;
+left: 7em;
+bottom: 7em;
+}
+/* .small{
+    width: 40px;
+}
+#periodNumber, #periodTime, #fillTime, #asking{
+    position: relative;
+}
+#periodNumber{
+    float: left;
+    left: 3em;
+}
+#periodTime{
+    float: right;
+    right: 16em;
+}
+#fillTime{
+    left: 40em;
+}
+#asking{
+top: 1em;
+} */

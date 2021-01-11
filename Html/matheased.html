@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Tool</title>
+    <link rel="icon" type="image/png" href="../Images/logo.png">
+    <link rel="stylesheet" href="../Css/header.css">
+    <link rel="stylesheet" href="../Css/ask.css">
+    <link rel="stylesheet" href="../Css/tool.css">
+    <link rel="stylesheet" href="../Css/receiver.css">
+    <script src="../Js/tool.js"></script>
+    <script src="../Js/receiver.js"></script>
+</head>
+<body>
+<style>
+header{
+    position: absolute;
+    left: 0;
+}
+</style>
+
+        <header id="header">
+                <span id="words">Student Tool</span>
+                <img src="../Images/logo.png">
+                <img src="../Images/apps.png" alt="Student Apps" title="Student Tool Apps" id="apps" class="counter" onclick="bringTool()">                
+        </header>
+
+        <div id="ToolsBar" style="display: none">
+            <table id="table">
+                <tr>
+                    <td><a href="../Html/timetable.html"><img src="../Images/timeTable.png" alt="Timetable"><br><span>Timetable</span></a></td>
+                    <td><a href="#"><img src="../Images/counter.png" alt="Counter"><br><span id="counter">Word Counter</span></a></td>
+                    <td><a href="../Html/calculator.html"><img src="../Images/calculator.png" alt="Calculator"><br><span id="calc">Calculator</span></a></td>
+                </tr>
+
+                <div class="down">
+                <tr>
+                    <td><a href="../Html/perfomance.html"><img src="../Images/perfomance.png" alt="Timetable"><br><span  id="perf">Perfomance</span></a></td>
+                    <td><a href="../Html/notes.html"><img src="../Images/notes.png" alt="Counter"><br><span id="notes">Notes</span></a></td>
+                    <td><a href="../Html/courses.html"><img src="../Images/courses.png" alt="Calculator"><br><span id="course">Courses</span></a></td>
+                </tr>
+                </div>
+                  </table>
+
+    </div>
+                        <div id="bringDown">
+
+    <div class="textArea">
+        <textarea rows="19" cols="45" placeholder="Copy paste Text here!" id="userText"></textarea>
+            </div>
+        
+            <div class="buttons">
+        <button id="one" onclick="countWords()">How many words in a text</button>
+        <button id="two" onclick="countByNumber()">How many words with 
+            <input type="number" id="letters"> 
+            letters are here</button>
+            </div>
+
+                        </div>
+        
+            <div class="alert" style="display: none;"
+            id="alert">
+                <span class="closebtn"
+                onclick="this.parentElement.style.display='none'">&times;
+                </span>
+        
+                <span id="message">Here</span>
+        
+            </div>
+        
+            <div class="customize">
+        <button onclick="bringIt()">Customize Page</button>
+            </div>
+        
+            <div class="customBar" id="customBar">
+        <button id="first" onclick="bringChangeHeader()" title="Double Click">Change Header Color</button>
+        <button id="second" onclick="bringChangeBackground()" title="Double Click">Change Background Color</button>
+            </div>
+        
+            <div class="HeaderColor" id="HeaderColor">
+                <button onclick="changeColor('blue','h')">Blue-Redblue</button>
+                <button onclick="changeColor('white','h')">White-Antique</button>
+                <button onclick="changeColor('red','h')">Red-rose</button>
+                <button onclick="changeColor('black','h')">Black</button>
+                <button onclick="changeColor('normal','h')">Normal</button>
+            </div>
+        
+            <div class="backgroundColor" id="backgroundColor">
+                <button onclick="changeColor('blue','b')">Blue-Redblue</button>
+                <button onclick="changeColor('white','b')">White-Antique</button>
+                <button onclick="changeColor('red','b')">Red-rose</button>
+                <button onclick="changeColor('black','b')">Black</button>
+                <button onclick="changeColor('normal','b')">Normal</button>
+            </div>
+        </div>
+
+    
+
+</body>
+</html>

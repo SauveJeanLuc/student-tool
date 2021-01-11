@@ -1,0 +1,54 @@
+.signup {
+    width: 100%;
+    width: 340px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+    bottom: 80px;
+}
+
+.signup #contact {
+
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.signup #contact h3{
+
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.signup fieldset{
+    border: medium none;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+
+}
+.signup #contact input{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 7px;
+}
+
+.signup #contact button {
+
+cursor: pointer;
+width: 100%;
+border: none;
+background: #4CAF50;
+color: #FFF;
+margin: 0 0 5px;
+padding: 10px;
+font-size: 15px;
+
+}

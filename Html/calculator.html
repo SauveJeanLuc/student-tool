@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Tool</title>
+    <link rel="icon" type="image/png" href="../Images/logo.png">
+    <link rel="stylesheet" href="../Css/header.css">
+    <link rel="stylesheet" href="../Css/ask.css">
+    <link rel="stylesheet" href="../Css/tool.css">
+    <link rel="stylesheet" href="../Css/calculator.css">
+    <script src="../Js/calculator.js"></script>
+    <script src="../Js/tool.js"></script>
+
+</head>
+<body>
+
+        <header>
+                <span>Student Tool</span>
+                <img src="../Images/logo.png">
+                <img src="../Images/apps.png" alt="Student Apps" title="Student Tool Apps" id="apps" onclick="bringTool()">
+        </header>
+
+        <div id="ToolsBar" style="display: none">
+            <table id="table">
+                <tr>
+                    <td><a href="../Html/timetable.html"><img src="../Images/timeTable.png" alt="Timetable"><br><span>Timetable</span></a></td>
+                    <td><a href="../Html/matheased.html"><img src="../Images/counter.png" alt="Counter"><br><span id="counter">Word Counter</span></a></td>
+                    <td><a href="#"><img src="../Images/calculator.png" alt="Calculator"><br><span id="calc">Calculator</span></a></td>
+                </tr>
+
+                <div class="down">
+                <tr>
+                    <td><a href="../Html/perfomance.html"><img src="../Images/perfomance.png" alt="Timetable"><br><span  id="perf">Perfomance</span></a></td>
+                    <td><a href="../Html/notes.html"><img src="../Images/notes.png" alt="Counter"><br><span id="notes">Notes</span></a></td>
+                    <td><a href="../Html/courses.html"><img src="../Images/courses.png" alt="Calculator"><br><span id="course">Courses</span></a></td>
+                </tr>
+                </div>
+                  </table>
+
+        </div>
+
+        
+        <h1>Calculator</h1>
+        <div class="main-div">
+                 
+                
+                          <div class="screen" id="screen"><p></p></div>
+                          <div class="clear" id="clear">C</div>
+                  
+              
+                             <ul class="number-div">
+                                       <li>1</li>
+                                       <li>2</li>
+                                       <li>3</li>
+                                       <li>+</li>
+                                       <li>4</li>
+                                       <li>5</li>
+                                       <li>6</li>
+                                       <li>x</li>
+                                       <li>7</li>
+                                       <li>8</li>
+                                       <li>9</li>
+                                       <li>-</li>
+                                       <li>0</li>
+                                       <li>.</li>
+                                       <li id="equals">=</li>
+                                       <li>÷</li>
+                                       
+                                       
+                             </ul>
+                 
+        </div>
+        
+              
+    
+</body>
+</html>

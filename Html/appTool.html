@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+#ToolsBar{
+    border:1px solid gray;
+    width: 33%;
+    height: 16em;
+}
+#table td a img{
+    width: 75%;
+}
+
+#table{
+    position: relative;
+    top:0.7em;
+    }
+#table td{
+    padding-left: 40px;
+}
+#table  tr  td p{
+    text-align: center;
+    font-size: 0.8em;
+    margin-left:10px;
+}
+#table td span{
+    padding: 0;
+    color: black;
+    font-weight: 20;
+    opacity: 0.9;
+
+}
+
+
+
+#table td a{
+    text-decoration: none;
+}
+.down{
+    position: relative;
+    top: 34em;
+}
+#counter,#calc,#notes,#course,#perf{
+    position: relative;
+}
+#counter{
+    bottom: 0.6em;
+    right: 0.5em;
+}
+#calc{
+    bottom: 0.54em;
+    left: 0.2em;
+}
+#notes{
+    bottom: 0.4em;
+    left: 1.1em;
+}
+#course{
+    bottom: 0.4em;
+    left: 0.6em;
+}
+#perf{
+    right: 0.4em;
+}
+#table tr td:hover{
+border: 1px solid gray;
+border-left: 2px;
+border-right:2px;
+}
+    
+    </style>
+</head>
+<body>
+    
+        <div id="ToolsBar">
+                <table id="table">
+                    <tr>
+                        <td><a href=""><img src="timeTable.png" alt="Timetable"><br><span>Timetable</span></a></td>
+                        <td><a href=""><img src="counter.png" alt="Counter"><br><span id="counter">Word Counter</span></a></td>
+                        <td><a href=""><img src="calculator.png" alt="Calculator"><br><span id="calc">Calculator</span></a></td>
+                    </tr>
+
+                    <div class="down">
+                    <tr>
+                        <td><a href=""><img src="perfomance.png" alt="Timetable"><br><span  id="perf">Perfomance</span></a></td>
+                        <td><a href=""><img src="notes.png" alt="Counter"><br><span id="notes">Notes</span></a></td>
+                        <td><a href=""><img src="courses.png" alt="Calculator"><br><span id="course">Courses</span></a></td>
+                    </tr>
+                    </div>
+                      </table>
+
+        </div>
+
+
+</body>
+</html>

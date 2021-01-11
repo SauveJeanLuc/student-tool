@@ -1,0 +1,65 @@
+body{
+  overflow-x: hidden;
+}
+table.any{
+    position: relative;
+    bottom: 3em;
+    display: none;
+}
+table.any{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    left: 70px;
+  }
+  
+  table.any td, table.any th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  table.any tr:hover {background-color: #ddd;}
+  
+  table.any th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  table.any input, table.any select{
+    border: transparent;
+    font-size:1.123em;
+    width: 10em;
+    background: white;
+  }
+
+  /* Lessons table */
+
+  #lessonsTable{
+    position: absolute !important;
+    top:1em;
+    left: 30em;
+  }
+
+  #namesButton
+  {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    
+    font-size: 15px;
+  }
+  #forButton{
+    background-color: #4CAF50;
+  }
+  #saveAsPdf{
+    width:10%;
+    font-size:90%;
+    margin-bottom: 4em;
+  }
